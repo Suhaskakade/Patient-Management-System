@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: akhq
+
+akhq:
+  connections:
+    local:
+      properties:
+        bootstrap.servers: "kafka:9092"
